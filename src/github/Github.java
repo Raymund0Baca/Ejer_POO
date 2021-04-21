@@ -20,9 +20,8 @@ public class Github {
         
         System.out.println("¿Cual es su nombre completo?");
         nombre= sc.nextLine();
-        SepararIniciales(nombre);
         System.out.println("\n" + "Su nombre completo es: " + " \n " +nombre);
-        
+        SepararIniciales(nombre);
     }
     public static void SepararIniciales(String name){
         String [] Iniciales= name.split("");
